@@ -1,4 +1,4 @@
-## Minimal [(Free version)](https://minimal-kit-react.vercel.app/)
+## MinTIC2022 - Gestion de ventas
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
