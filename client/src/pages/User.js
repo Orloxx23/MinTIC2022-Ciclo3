@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Suspense } from 'react';
 import axios from 'axios';
 import { filter } from 'lodash';
 import { sentenceCase } from 'change-case';
@@ -17,7 +16,6 @@ import {
   TableContainer,
   TablePagination,
   IconButton,
-  CircularProgress
 } from '@mui/material';
 // components
 import Page from '../components/Page';

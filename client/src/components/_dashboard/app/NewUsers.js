@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 import { Icon } from '@iconify/react';
 import { Link as RouterLink } from 'react-router-dom';
 import arrowIosForwardFill from '@iconify/icons-eva/arrow-ios-forward-fill';
-import checkCircleFilled from '@iconify/icons-ant-design/check-circle-filled';
-import { styled } from '@mui/material/styles';
 // material
 import { Box, Stack, Card, Button, Divider, Typography, CardHeader } from '@mui/material';
 // utils
@@ -19,15 +17,6 @@ NewsItem.propTypes = {
 };
 
 function NewsItem({ news }) {
-  function formatNumber(number) {
-    return (
-      new Intl.NumberFormat("ES-CO", {
-        minimumSignificantDigits: 1,
-        style: "currency",
-        currency: "COP"
-      }).format(number)
-    );
-  }
 
   const formatDate = (date) => {
     const newDate = new Date(date);
@@ -38,10 +27,6 @@ function NewsItem({ news }) {
   }
 
   const { name, picture, createdAt } = news;
-
-  const IconWrapperStyle = styled('div')(({ theme }) => ({
-    color: theme.palette.success.main
-  }));
 
   return (
     <Stack direction="row" alignItems="center" spacing={2}>

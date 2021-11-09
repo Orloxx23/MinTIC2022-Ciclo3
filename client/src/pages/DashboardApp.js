@@ -1,7 +1,5 @@
 // material
 import { Box, Grid, Container, Typography } from '@mui/material';
-import ColorManyPicker from 'src/components/ColorManyPicker';
-import ColorPreview from 'src/components/ColorPreview';
 import NewUsers from 'src/components/_dashboard/app/NewUsers';
 // components
 import Page from '../components/Page';

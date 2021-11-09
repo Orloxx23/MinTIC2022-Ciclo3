@@ -16,6 +16,9 @@ export default function Permission() {
                 <Typography variant="h2" component="div" sx={{ mx: "auto" }}>
                     Espera a que un administrador autorice tu acceso.
                 </Typography>
+                <Typography variant="body" component="div" sx={{ mx: "auto" }}>
+                    Reinicia sesion para comprobar el estado de tu cuenta
+                </Typography>
                 <br />
                 <Box
                     component="img"
